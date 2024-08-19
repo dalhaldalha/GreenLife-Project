@@ -1,9 +1,44 @@
-.navbar {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  margin: 0px;
+}
+
+a {
+  margin: 0px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-1 {
+  display: flex;
+  background-color: aqua;
+}
+
+.nav-2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(15, 238, 89);
+}
+
+.nav-3 {
+  display: flex;
+}
+
+.cart-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.logo {
-  width: 100px;
+  background-color: rgb(17, 240, 17);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 7rem;
 }
