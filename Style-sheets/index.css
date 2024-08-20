@@ -25,7 +25,7 @@ nav {
 .nav-1 {
   display: flex;
   /* background-color: aqua; */
-  gap: 0.5;
+  gap: 0.5rem;
 }
 
 .greenlife-icon {
@@ -48,6 +48,7 @@ nav {
 }
 
 .nav-links {
+  color: black;
   font-size: 1.2rem;
 }
 /*-------------NAV 3-------------*/
@@ -71,4 +72,13 @@ nav {
 .cart-img {
   height: 2rem;
   width: 2rem;
+}
+
+/*-------------------------HEADER SECTION-------------------------*/
+
+/*-------------HEADER GENERAL-------------*/
+
+header {
+  background-color: #f5f5dc;
+  height: 80vh;
 }
