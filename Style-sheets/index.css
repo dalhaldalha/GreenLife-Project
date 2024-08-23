@@ -2,6 +2,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0rem 4rem;
 }
 p {
   margin: 0px;
@@ -29,6 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  padding: 0rem 2rem;
 }
 /*-------------NAV 1-------------*/
 .nav-1 {
@@ -139,7 +141,7 @@ header {
 
 .newsletter-btn {
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.2rem;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
@@ -159,4 +161,26 @@ header {
 .hero-img {
   height: 100%;
   width: 100%;
+}
+
+/*-------------------------POPULAR PRODUCT SECTION-------------------------*/
+
+/*-------------POPULAR PRODUCT GENERAL-------------*/
+.poproduct-sec {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-1-con {
+  display: flex;
+  flex-direction: column;
+  background-color: #4caf50;
+  height: 16rem;
+  width: 14rem;
+  border-radius: 0.3rem;
+  border: solid;
+  border-color: grey;
+  padding: 1rem;
 }
